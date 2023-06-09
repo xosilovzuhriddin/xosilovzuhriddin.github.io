@@ -1,0 +1,40 @@
+body {
+  background-color: #333;
+  color: #fff;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.fa-instagram {
+  position: absolute;
+  top: -20px;
+  animation: instagram 3s linear forwards;
+}
+
+@keyframes instagram {
+  to {
+    top: 95vh;
+    transform: rotate(360deg);
+  }
+}
+.fa-facebook {
+  position: absolute;
+  top: -20px;
+  animation: instagram 3s linear forwards;
+}
+
+.fa-twitter {
+  position: absolute;
+  top: -20px;
+  animation: instagram 3s linear forwards;
+}
+
+.fa-google {
+  position: absolute;
+  top: -20px;
+  animation: instagram 3s linear forwards;
+}
+
+.icon {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
